@@ -1,0 +1,26 @@
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
+                      https://maven.apache.org/xsd/settings-1.0.0.xsd">
+<mirrors>
+    <mirror> <!--Send all requests to the public group -->
+      <id>central</id>
+      <mirrorOf>*</mirrorOf>
+      <url>https://jcenter.bintray.com</url>
+    </mirror>
+  </mirrors>	  
+					  
+<servers>
+    <server>
+      <id>central</id>
+      <username>admin</username>
+      <password>Aj1kz9j5KK</password>
+    </server>
+    <server>
+      <id>central</id>
+      <username>admin</username>
+      <password>Aj1kz9j5KK</password>
+    </server>
+</servers>
+
+</settings>
